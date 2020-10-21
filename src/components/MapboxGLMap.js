@@ -21,7 +21,7 @@ const MapboxGLMap = () => {
         container: mapContainer.current,
         style: `mapbox://styles/mapbox/${backgroundLayerID}`,
         center: [10.727367, 59.917058],
-        zoom: 18,
+        zoom: 15,
       });
 
       map.on("load", () => {
