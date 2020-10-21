@@ -11,7 +11,7 @@ const styles = {
 const Header = () => {
     return (
         <div style={styles}>
-            <header>a normal 2020 experience</header>
+            <header>welcome home:)</header>
         </div>
     )
 }
