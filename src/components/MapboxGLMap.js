@@ -20,7 +20,7 @@ const MapboxGLMap = () => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
         style: `mapbox://styles/mapbox/${backgroundLayerID}`,
-        center: [10.408773, 63.422091],
+        center: [10.727367, 59.917058],
         zoom: 10,
       });
 
