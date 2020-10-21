@@ -17,7 +17,7 @@ const MapboxGLMap = () => {
     const initializeMap = ({ setMap, mapContainer }) => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
-        style: "mapbox://styles/mapbox/dark-v1", // stylesheet location
+        style: "mapbox://styles/mapbox/dark-v10", // stylesheet location
         center: [10.395446,63.418444],
         zoom: 10
       });
